@@ -1,5 +1,5 @@
 #include <stdio.h>
-/&**
+/**
  * main - Entry point
  *
  * Descreption : A C program that prints with put function
@@ -8,17 +8,12 @@
 */
 int main(void)
 {
-	int digit = 48; /*48; decimal rep of 0*/
+	int i = 0;
 
-	while (digit <= 102) /*102; decimal rep of f*/
+	for (i = 122; i > 96; i--)
 {
-	putchar(digit);
-	/* after 9 we jump till 96; `*/
-	if (digit == 57)
-	digit += 39;
-	digit++;
+	putchar(i);
 }
 	putchar('\n');
-
 	return (0);
 }
